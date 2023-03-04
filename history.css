@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url(./Backgroung\ Pic.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  color: #fff;
+  margin-top: 2rem;
+  padding-left: 2rem;
+}
+
+button {
+  position: relative;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 1rem;
+  width: 10rem;
+  height: 3rem;
+  margin-top: 2rem;
+  left: 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.search-history-link{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 0.3rem;
+    color: #fff;
+    height: 2rem;
+}
+

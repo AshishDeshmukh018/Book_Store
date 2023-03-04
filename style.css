@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url(./Backgroung\ Pic.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  color: #fff;
+  margin-top: 2rem;
+  padding-left: 2rem;
+}
+
+input {
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 0.3rem;
+  width: 70rem;
+  height: 3rem;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  left: 2rem;
+  color: #fff;
+}
+
+button {
+  position: relative;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 1rem;
+  width: 10rem;
+  height: 3rem;
+  margin-top: 2rem;
+  left: 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.book-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.book-container img {
+  flex-basis: 150px;
+  margin-right: 20px;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.book-author {
+  margin-bottom: 10px;
+}
+
+.book-author p {
+  margin-left: 10px;
+}
+
+.book-description {
+  font-style: italic;
+}
+
+#search-title {
+  color: #fff;
+  margin-top: 2rem;
+  padding-left: 2rem;
+}
